@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SosInsructionsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="INSTRUCTIONS for Emergency Service"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="65dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:padding="6dp"
+                android:text="@string/self_defense_techniques_n_1_be_aware_of_your_surroundings_always_stay_aware_of_your_surroundings_and_pay_attention_to_the_people_around_you_this_can_help_you_avoid_potentially_dangerous_situations_n_2_trust_your_instincts_if_you_feel_uncomfortable_or_unsafe_in_a_situation_trust_your_instincts_and_leave_the_area_it_s_better_to_be_safe_than_sorry_n_3_stay_in_well_lit_areas_when_walking_alone_especially_at_night_stick_to_well_lit_areas_and_avoid_alleys_or_dimly_lit_streets_n_4_carry_a_self_defense_tool_consider_carrying_a_self_defense_tool_such_as_pepper_spray_a_personal_alarm_or_a_tactical_pen_make_sure_you_are_trained_in_how_to_use_it_effectively_n_5_don_t_share_personal_information_with_strangers_avoid_sharing_your_personal_information_with_strangers_especially_if_they_make_you_feel_uncomfortable_li_n_keep_your_phone_charged_always_keep_your_phone_charged_and_easily_accessible_this_can_help_you_call_for_help_in_an_emergency_n_6_avoid_walking_alone_whenever_possible_try_to_walk_with_a_friend_or_in_a_group_this_can_help_deter_potential_attackers_n_7_let_someone_know_your_plans_if_you_re_going_out_alone_let_someone_know_where_you_re_going_and_when_you_plan_to_be_back_n_8_avoid_getting_too_intoxicated_drinking_too_much_can_impair_your_judgment_and_make_you_more_vulnerable_to_dangerous_situations_n_9_learn_self_defense_consider_taking_a_self_defense_class_to_learn_how_to_protect_yourself_in_potentially_dangerous_situations_n_10_share_your_location_share_your_location_with_friends_or_family_members_when_you_re_out_alone_so_they_know_where_you_are_and_can_help_you_in_case_of_an_emergency_when_you_are_riding_alone_in_a_cab_share_your_driver_s_name_and_cab_number_with_your_family_members_and_closed_friends_so_that_in_case_of_emergency_they_can_keep_an_additional_track_n_11_use_transportation_services_consider_using_transportation_services_such_as_taxis_or_ride_sharing_services_instead_of_walking_alone_at_night_n_12_be_cautious_on_social_media_be_cautious_about_the_information_you_share_on_social_media_and_avoid_sharing_personal_information_that_could_make_you_vulnerable_to_attackers_n_13_protection_against_sexual_harassment_the_sexual_harassment_of_women_at_workplace_prevention_prohibition_and_redressal_act_2013_provides_protection_to_women_from_sexual_harassment_at_the_workplace_women_have_the_right_to_file_a_complaint_and_seek_redressal_under_this_law_n_14_rotection_against_domestic_violence_the_protection_of_women_from_domestic_violence_act_2005_provides_legal_protection_to_women_from_domestic_violence_women_have_the_right_to_file_a_complaint_and_seek_redressal_under_this_law_n_15_protection_against_acid_attacks_the_acid_attacks_survivors_compensation_and_rehabilitation_scheme_2016_provides_compensation_and_rehabilitation_to_acid_attack_survivors_women_have_the_right_to_seek_compensation_and_rehabilitation_under_this_scheme_n_android_textcolor"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="201dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="4dp"
+        android:textAlignment="center"
+        android:text="\u00A9 copyright by Sayan Sarkar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
